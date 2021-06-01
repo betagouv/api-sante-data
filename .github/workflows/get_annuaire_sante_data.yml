@@ -8,7 +8,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - .github/workflows/flat.yml # Only run a new workflow every time this file (flat.yaml) file changes    
+      - .github/workflows/get_annuaire_sante_data.yml # Only run a new workflow every time this file (flat.yaml) file changes    
   #pull_request:
     # branches: [ main ]
 
