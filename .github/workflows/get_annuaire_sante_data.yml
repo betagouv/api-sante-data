@@ -58,7 +58,7 @@ jobs:
         with:
           http_url: https://annuaire.sante.fr/web/site-pro/extractions-publiques?p_p_id=abonnementportlet_WAR_Inscriptionportlet_INSTANCE_gGMT6fhOPMYV&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&_abonnementportlet_WAR_Inscriptionportlet_INSTANCE_gGMT6fhOPMYV_nomFichier=PS_LibreAcces_202105311652.zip # The data to fetch every 5 minutes
           downloaded_filename: annuaire.zip # The http_url gets saved and renamed in our repository as annuaire.zip
-          postprocess: postprocess.sh # A postprocessing javascript or typescript file written in Deno
+          postprocess: my_postprocess.js # A postprocessing javascript or typescript file written in Deno
           # mask: true # optional param to mask the source http_url from the commit. Look at README for more options
 
   # This workflow contains a single job called "build"
